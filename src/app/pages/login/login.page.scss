@@ -1,0 +1,53 @@
+ion-content {
+
+   /* --ion-background-color: #9ee36a !important;*/
+
+}
+
+.logo {
+
+    margin-left  : 31%;
+    margin-top   : 12%;
+    margin-bottom: 20%;
+}
+
+h1 {
+
+    color      : #4A5248;
+    font-weight: bold;
+
+}
+
+form {
+
+    margin-top : 15%;
+    margin-left: 13%;
+    width      : 70%;
+
+}
+
+form ion-label floting {
+
+    color: #4A5248;
+}
+
+ion-button {
+
+    width        : 50%;
+    margin-top   : 20%;
+    margin-left  : 25%;
+    margin-bottom: 25%;
+    background   : variable-exists($name: --ion-color-secondary);
+}
+
+p {
+
+    color: #4A5248;
+}
+
+h4 {
+
+    color      : #4A5248;
+    font-weight: bold;
+    margin-top : 5%;
+}
