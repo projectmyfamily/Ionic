@@ -1,0 +1,56 @@
+ion-content {
+
+    --ion-background-color: #4A5248;
+}
+
+
+img {
+
+
+    margin-left  : 22%;
+    margin-top   : 12%;
+    margin-bottom: 0%;
+
+}
+
+h1 {
+
+
+    color: #ffffff;
+
+}
+
+form {
+
+    margin-top : 6%;
+    margin-left: 10%;
+    width      : 75%;
+    color      : var(--ion-input-color);
+
+}
+
+ion-input {
+
+    color: var(--ion-input-color);
+}
+
+ion-button {
+
+    width        : 70%;
+    margin-top   : 10%;
+    margin-left  : 14%;
+    margin-bottom: 10%;
+}
+
+p {
+
+    color: #4A5248;
+
+}
+
+h4 {
+
+    color      : #4A5248;
+    font-weight: bold;
+    margin-top : 20%;
+}
