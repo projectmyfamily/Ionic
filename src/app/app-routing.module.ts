@@ -61,7 +61,11 @@ const routes: Routes = [
   {
     path: 'discricaotarefas',
     loadChildren: () => import('./pages/discricaotarefas/discricaotarefas.module').then( m => m.DiscricaotarefasPageModule)
+  },  {
+    path: 'atividades',
+    loadChildren: () => import('./pages/atividades/atividades.module').then( m => m.AtividadesPageModule)
   }
+
 ];
 @NgModule({
   imports: [

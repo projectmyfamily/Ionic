@@ -6,6 +6,25 @@
 
 <ion-content padding>
 
+  <ion-item>
+    <h1 class="ion-text-center">Tarefas da Familia</h1>
+  </ion-item>
+  <!-- ion-item, fazer clique para funcionar e levar até a pagina discricaotarefas-->
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="assets/310.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h3>Tarefa:</h3>
+      <h3>Entrega:</h3>
+      <h3>Para:</h3>
+      <h3>Status:</h3>
+    </ion-label>
+  </ion-item>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <img (click)="abriraddmembro()" src="assets/add-ion.svg" width="60%" height="60%">
+  </ion-fab>
 
 
 </ion-content>

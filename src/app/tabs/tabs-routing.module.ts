@@ -47,6 +47,17 @@ const routes: Routes = [
           }
         ]
       },
+
+      {
+        path: 'atividades',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+              import('../pages/atividades/atividades.module').then(m => m.AtividadesPageModule)
+          }
+        ]
+      },
       {
         path: '',
         redirectTo: '/tabs/home',

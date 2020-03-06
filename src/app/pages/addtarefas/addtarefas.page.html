@@ -1,9 +1,36 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>addtarefas</ion-title>
+    <ion-back-button defaultHref="tabs/tarefas" slot="start"></ion-back-button>
+    <ion-title>Tarefas</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
+
+  <ion-item>
+    <h1>Adicionar Tarefa</h1>
+  </ion-item>
+<div class="posicao">
+  <form class="largura">
+    <ion-item>
+      <ion-label position="floating">Tarefa</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Data e Hora</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Designar</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Detalhes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </form>
+
+  <ion-button type="submit">Adicionar</ion-button>
+</div>
 
 </ion-content>

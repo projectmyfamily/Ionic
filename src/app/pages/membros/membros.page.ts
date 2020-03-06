@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AddmembroPage } from '../addmembro/addmembro.page';
+
 
 @Component({
   selector: 'app-membros',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./membros.page.scss'],
 })
 export class MembrosPage implements OnInit {
+  navCtrl: any;
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  
 
 }

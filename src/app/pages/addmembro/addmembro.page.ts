@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-addmembro',
   templateUrl: './addmembro.page.html',
@@ -11,5 +13,7 @@ export class AddmembroPage implements OnInit {
 
   ngOnInit() {
   }
+
+ 
 
 }
