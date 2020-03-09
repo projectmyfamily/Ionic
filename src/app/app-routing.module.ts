@@ -64,6 +64,10 @@ const routes: Routes = [
   },  {
     path: 'atividades',
     loadChildren: () => import('./pages/atividades/atividades.module').then( m => m.AtividadesPageModule)
+  },
+  {
+    path: 'selecperfil',
+    loadChildren: () => import('./pages/selecperfil/selecperfil.module').then( m => m.SelecperfilPageModule)
   }
 
 ];
