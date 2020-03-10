@@ -1,3 +1,4 @@
+import { ModalperfilPage } from './../modalperfil/modalperfil.page';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -15,6 +16,7 @@ import { HomePage } from './home.page';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, ModalperfilPage],
+  entryComponents: [ModalperfilPage]
 })
 export class HomePageModule {}

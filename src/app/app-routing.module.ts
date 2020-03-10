@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
+
 const routes: Routes = [
+
+  {
+      path: '', redirectTo: "inicio", pathMatch: 'full'
+  },
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
@@ -61,14 +66,19 @@ const routes: Routes = [
   {
     path: 'discricaotarefas',
     loadChildren: () => import('./pages/discricaotarefas/discricaotarefas.module').then( m => m.DiscricaotarefasPageModule)
-  },  {
+  },
+  {
     path: 'atividades',
     loadChildren: () => import('./pages/atividades/atividades.module').then( m => m.AtividadesPageModule)
   },
   {
     path: 'selecperfil',
     loadChildren: () => import('./pages/selecperfil/selecperfil.module').then( m => m.SelecperfilPageModule)
+  },  {
+    path: 'modalperfil',
+    loadChildren: () => import('./pages/modalperfil/modalperfil.module').then( m => m.ModalperfilPageModule)
   }
+
 
 ];
 @NgModule({
