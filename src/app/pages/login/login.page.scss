@@ -1,43 +1,43 @@
-ion-content {
-
-   /* --ion-background-color: #9ee36a !important;*/
-
-}
-
 .logo {
 
-    margin-left  : 31%;
-    margin-top   : 12%;
-    margin-bottom: 20%;
+    
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: 20%;
 }
+
+.top{
+
+    text-align: center;
+    width     : 100%;
+    margin-top: 25%;
+    
+
+    form{
+    
+        text-align: center;
+        width: 100%;
+        margin-top: 10%;
+        left: 0;
+        right: 0;
+
+    }
+
+    ion-button{
+
+        width: 70%;
+        margin-top: 15%;
+    }
+
+}
+
 
 h1 {
 
     color      : #4A5248;
     font-weight: bold;
 
-}
-
-form {
-
-    margin-top : 15%;
-    margin-left: 13%;
-    width      : 70%;
-
-}
-
-form ion-label floting {
-
-    color: #4A5248;
-}
-
-ion-button {
-
-    width        : 50%;
-    margin-top   : 20%;
-    margin-left  : 25%;
-    margin-bottom: 25%;
-    background   : variable-exists($name: --ion-color-secondary);
 }
 
 p {

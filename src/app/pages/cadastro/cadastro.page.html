@@ -1,44 +1,85 @@
 <ion-content>
 
-  <img src="assets/logo/myfamily-verde.svg" width=52% height=22%>
+  <ion-slides>
 
-  <h1 class="ion-text-center">Entrar</h1>
+    <!-------------------------Slide de Usuário----------------------------->
+    <ion-slide>
 
-  <form class="largura">
-    <ion-item>
-      <ion-label position="floating">Nome</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">Idade</ion-label>
-      <ion-input type="number"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">Sexo</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">E-mail</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">Senha</ion-label>
-      <ion-input type="Password"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">Cidade</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">Estado</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">Nome da Família</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-  </form>
+      <div class="container">
+        <img src="assets/logo/myfamily-verde.svg" width=52% height=22%>
+      </div>
 
-  <ion-button type="submit">Inscrever-se</ion-button>
+      <div class="slide-inner ion-padding">
 
+        <h1 class="ion-text-center">Entrar</h1>
+
+        <form class="largura">
+          <ion-item>
+            <ion-label position="floating">E-mail</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Senha</ion-label>
+            <ion-input type="Password"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Cidade</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Estado</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Nome da Família</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+        </form>
+
+        <ion-button type="submit">Inscrever-se</ion-button>
+      </div>
+    </ion-slide>
+
+    <!-------------------------------Slide de Perfis--------------------------------->
+
+    <ion-slide>
+
+      <div class="container">
+        <img src="assets/logo/myfamily-verde.svg" width=52% height=22%>
+      </div>
+
+      <div class="slide-inner ion-padding">
+
+        <h1 class="ion-text-center">Adicionar Perfis</h1>
+
+        <form class="largura">
+          <ion-item>
+            <ion-label position="floating">Perfil 1</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Perfil 2</ion-label>
+            <ion-input type="Password"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Perfil 3</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Perfil 4</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Perfil 5</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+        </form>
+
+        <ion-button type="submit">Finalizar</ion-button>
+      </div>
+
+    </ion-slide>
+
+
+  </ion-slides>
 </ion-content>
