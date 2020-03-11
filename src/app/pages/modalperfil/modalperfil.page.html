@@ -1,10 +1,31 @@
-<ion-item>
+<ion-header translucent="true">
+  <ion-toolbar>
     <ion-title class="ion-text-center">Perfil</ion-title>
-  </ion-item> 
+  </ion-toolbar>
+</ion-header>
 
 <ion-content padding>
 
-  <h1>Olá</h1>
-  <ion-button (click)="close()">Fechar</ion-button>
+  <div class="icone">
+    <ion-avatar>
+      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+    </ion-avatar>
+  </div>
 
+  <div class="dados">
+    <p>Nome</p>
+    <p>Idade</p>
+    <p>Parentesco</p>
+    <p>Tarefas Concluída</p>
+  </div>
+
+  <div class="close">
+    <ion-button (click)="close()">Fechar</ion-button>
+  </div>
+  <div class="editar">
+    <ion-button (click)="editarperfil()">Editar Perfil</ion-button>
+  </div>
+  <div class="logout">
+    <ion-button (click)="logout()">Sair</ion-button>
+  </div>
 </ion-content>
