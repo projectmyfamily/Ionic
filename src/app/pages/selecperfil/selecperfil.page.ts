@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalController } from '@ionic/angular';
+import { ModaladdperfilPage } from '../modaladdperfil/modaladdperfil.page';
 
 @Component({
   selector: 'app-selecperfil',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SelecperfilPage implements OnInit {
 
-  constructor() { }
+  constructor(private modalCtrl: ModalController) { }
 
   ngOnInit() {
   }
+
+
+  async addPerfil(){
+    const modal = await this.modalCtrl.create({
+      component: ModaladdperfilPage
+    });
+
+    modal.present();
+
+  }
+
 
 }

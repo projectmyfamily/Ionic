@@ -79,7 +79,11 @@ const routes: Routes = [
   {
     path: 'editarperfil',
     loadChildren: () => import('./pages/editarperfil/editarperfil.module').then( m => m.EditarperfilPageModule)
+  },  {
+    path: 'modaladdperfil',
+    loadChildren: () => import('./pages/modaladdperfil/modaladdperfil.module').then( m => m.ModaladdperfilPageModule)
   }
+
 
 
 ];
