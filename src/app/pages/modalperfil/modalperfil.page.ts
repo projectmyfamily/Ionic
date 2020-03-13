@@ -20,4 +20,9 @@ export class ModalperfilPage implements OnInit {
     this.modalCtrl.dismiss();
   }
 
+  editarperfil(){
+
+    // this.modalCtrl.edit(EditarperfilPage);
+  }
+
 }

@@ -7,10 +7,7 @@ const routes: Routes = [
   {
       path: '', redirectTo: "inicio", pathMatch: 'full'
   },
-  {
-    path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  },
+  { path: '', loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule) },
   {
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
@@ -74,9 +71,14 @@ const routes: Routes = [
   {
     path: 'selecperfil',
     loadChildren: () => import('./pages/selecperfil/selecperfil.module').then( m => m.SelecperfilPageModule)
-  },  {
+  },
+  {
     path: 'modalperfil',
     loadChildren: () => import('./pages/modalperfil/modalperfil.module').then( m => m.ModalperfilPageModule)
+  },
+  {
+    path: 'editarperfil',
+    loadChildren: () => import('./pages/editarperfil/editarperfil.module').then( m => m.EditarperfilPageModule)
   }
 
 
