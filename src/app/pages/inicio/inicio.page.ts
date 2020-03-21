@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-inicio',
@@ -9,14 +10,13 @@ import { Router } from '@angular/router';
 })
 export class InicioPage implements OnInit {
 
-  constructor( private router: Router) { }
+  constructor(public router: Router, private navCtrl: NavController) { }
 
   ngOnInit() {
   }
 
   abrirCadastro() {
-  
-    this.router.navigate(['CadastroPage']);
+    this.navCtrl.navigateForward("CadastroPage");
 
   }
 

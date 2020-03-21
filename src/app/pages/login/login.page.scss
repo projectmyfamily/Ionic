@@ -1,21 +1,25 @@
-.logo {
+img{
 
     
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin-top: 20%;
+    margin-left: 15%;
+    margin-top: 10vh;
 }
 
 .top{
 
+    font-family: Quicksand;
     text-align: center;
     width     : 100%;
-    margin-top: 25%;
+    margin-top: 10%;
     
+    h1{
+
+        font-family: quicksand;
+    }
 
     form{
-    
+        
+        font-family: Quicksand;
         text-align: center;
         width: 100%;
         margin-top: 10%;
@@ -32,11 +36,10 @@
 
 }
 
-
 h1 {
 
     color      : #4A5248;
-    font-weight: bold;
+    font-weight: regular;
 
 }
 
@@ -49,5 +52,5 @@ h4 {
 
     color      : #4A5248;
     font-weight: bold;
-    margin-top : 5%;
+    margin-top: 22%;
 }
