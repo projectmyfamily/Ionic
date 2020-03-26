@@ -7,8 +7,12 @@
   </div>
 
   <div class="add">
-    <img (click)="addPerfil()" src="assets/add-perfil.svg" width="20%" height="20%">
+    <ion-avatar (click)="addPerfil()">
+      <img src="assets/add-perfil.svg" width="60%" height="60%">
+    </ion-avatar>
   </div>
+
+  <ion-button (click)="sair()" class="button-clear">Sair</ion-button>
 
 
 </ion-content>

@@ -1,17 +1,29 @@
+ion-header{
+
+    font-family: quicksand;
+
+}
+
+ion-content{
+
+    font-family: quicksand;
+
+
 .icone{
   
   
   margin-left: 42%;
-  margin-top: 15%;
+  margin-top: 10%;
   
 }
 
 .close {
 
-    margin-top: auto;
+    margin-top: 15%;
     justify-content: center;
     justify-items: center;
     text-align: center;
+    color: #4A5248;
 
 }
 
@@ -36,4 +48,13 @@
 
     text-align: center;
     margin-top: 10%;
+    color: #4A5248;
+}
+
+h1{
+
+    text-align: center;
+    color: #4A5248;
+}
+
 }

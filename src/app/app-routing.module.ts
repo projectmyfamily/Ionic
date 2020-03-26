@@ -82,6 +82,10 @@ const routes: Routes = [
   },  {
     path: 'modaladdperfil',
     loadChildren: () => import('./pages/modaladdperfil/modaladdperfil.module').then( m => m.ModaladdperfilPageModule)
+  },
+  {
+    path: 'modalajuda',
+    loadChildren: () => import('./pages/modalajuda/modalajuda.module').then( m => m.ModalajudaPageModule)
   }
 
 

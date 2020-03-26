@@ -27,7 +27,7 @@ ion-content {
 
     h1{
 
-        color: #ffffff;
+        color: #9ee36a;
         font-family: 'Quicksand';
         font-size: 16px;
     }
@@ -37,9 +37,19 @@ ion-content {
 .add{
 
     
-    margin-left: 38%;
+    margin-left: 40%;
     right: 0;
     margin-top:50%;
     width: 120%;
     
+}
+
+ion-button{
+
+    justify-content: center;
+    align-content: center;
+    margin-top: 30%;
+    margin-left: 40%;
+    background: clear;
+
 }

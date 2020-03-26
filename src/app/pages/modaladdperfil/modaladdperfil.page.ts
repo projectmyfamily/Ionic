@@ -13,8 +13,9 @@ export class ModaladdperfilPage implements OnInit {
   ngOnInit() {
   }
 
-  // close(){
-  // this.modalCtrl.dismiss()
-  // }
+  close(){
+
+    this.modalCtrl.dismiss();
+  }
 
 }

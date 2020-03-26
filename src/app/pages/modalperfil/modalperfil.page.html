@@ -1,10 +1,14 @@
+
 <ion-header translucent="true">
   <ion-toolbar>
-    <ion-title class="ion-text-center">Perfil</ion-title>
+    <ion-back-button (click)="close()" slot="start"></ion-back-button>
+    <ion-avatar><img src="assets/logo/logooficial.svg"</ion-avatar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
+
+  <h1>Perfil</h1>
 
   <div class="icone">
     <ion-avatar>
@@ -16,16 +20,16 @@
     <p>Nome</p>
     <p>Idade</p>
     <p>Parentesco</p>
-    <p>Tarefas Concluída</p>
+    <p style="font-weight: bold; font-size: 19px;">Tarefas Concluída</p>
   </div>
 
   <div class="close">
-    <ion-button (click)="close()">Fechar</ion-button>
+    <ion-button (click)="editarperfil()" class="button-clear">Editar Perfil</ion-button>
   </div>
   <div class="editar">
-    <ion-button (click)="editarperfil()">Editar Perfil</ion-button>
+    <ion-button class="button-clear">Créditos</ion-button>
   </div>
   <div class="logout">
-    <ion-button (click)="logout()">Sair</ion-button>
+    <ion-button class="button-clear">Sair</ion-button>
   </div>
 </ion-content>

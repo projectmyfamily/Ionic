@@ -1,4 +1,4 @@
-import { ModalController } from '@ionic/angular';
+import { ModalController, NavController } from '@ionic/angular';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class ModalperfilPage implements OnInit {
 
   constructor(
-    private modalCtrl: ModalController
+    private modalCtrl: ModalController,
+    public navCtrl: NavController
   ) { }
 
   ngOnInit() {
@@ -22,7 +23,7 @@ export class ModalperfilPage implements OnInit {
 
   editarperfil(){
 
-    // this.modalCtrl.edit(EditarperfilPage);
+    this.navCtrl.navigateForward('/editarperfil');
   }
 
 }

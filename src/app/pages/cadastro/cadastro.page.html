@@ -3,84 +3,86 @@
   <ion-slides>
 
     <!------------Slide de Usuário-------->
-    
+
     <ion-slide>
 
-      
-        <img src="assets/logo/logooficial.svg">
-      
+
+      <img src="assets/logo/logooficial.svg">
+
 
       <div class="slide-inner ion-padding">
 
-        <h1 class="ion-text-center">Entrar</h1>
+        <h1 class="ion-text-center">Cadastro</h1>
 
         <div class="largura">
-        <form>
-          <ion-item>
-            <ion-label position="floating">E-mail</ion-label>
-            <ion-input type="text"></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-label position="floating">Senha</ion-label>
-            <ion-input type="Password"></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-label position="floating">Cidade</ion-label>
-            <ion-input type="text"></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-label position="floating">Estado</ion-label>
-            <ion-input type="text"></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-label position="floating">Nome da Família</ion-label>
-            <ion-input type="text"></ion-input>
-          </ion-item>
-        </form>
-      </div>
+          <form>
+            <ion-item>
+              <ion-label position="floating">E-mail</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Senha</ion-label>
+              <ion-input type="Password"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Confirmar Senha</ion-label>
+              <ion-input type="Password"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Cidade</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Estado</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Nome da Família</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+          </form>
+        </div>
 
         <ion-button type="submit">Seguinte</ion-button>
 
-        <p>Entrar</p>
+        <p (click)="abrirlogin()">Entrar</p>
       </div>
     </ion-slide>
 
     <!----------------Slide de Perfis-------------->
 
     <ion-slide>
-
+    <div>
       <img src="assets/logo/logooficial.svg">
-
+    </div>
       <div class="slide-inner ion-padding">
 
-        <h1 class="ion-text-center">Adicionar Perfis</h1>
+        <h1 class="ion-text-center">Adicionar Perfil</h1>
 
-        <form class="largura">
+       
+
+        <form class="largura2">
           <ion-item>
-            <ion-label position="floating">Perfil 1</ion-label>
+            <ion-label position="floating">Nome</ion-label>
             <ion-input type="text"></ion-input>
           </ion-item>
           <ion-item>
-            <ion-label position="floating">Perfil 2</ion-label>
+            <ion-label position="floating">Idade</ion-label>
             <ion-input type="Password"></ion-input>
           </ion-item>
           <ion-item>
-            <ion-label position="floating">Perfil 3</ion-label>
+            <ion-label position="floating">Parentesco</ion-label>
             <ion-input type="text"></ion-input>
           </ion-item>
           <ion-item>
-            <ion-label position="floating">Perfil 4</ion-label>
-            <ion-input type="text"></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-label position="floating">Perfil 5</ion-label>
+            <ion-label position="floating">PIN</ion-label>
             <ion-input type="text"></ion-input>
           </ion-item>
         </form>
 
         <ion-button type="submit">Finalizar</ion-button>
 
-        
+
       </div>
 
     </ion-slide>

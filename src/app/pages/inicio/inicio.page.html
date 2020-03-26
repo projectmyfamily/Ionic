@@ -1,9 +1,12 @@
 <ion-content>
+  
   <img src="assets/logo/logooficial.svg" width=72% height=50%>
 
-  <ion-button class ="enter" type="submit">Entrar</ion-button>
-  <ion-button (click)="abrirCadastro()" class="register" type="submit">Cadastrar-se</ion-button>
+  <ion-button (click)="abrirLogin()" class="enter" type="submit">Entrar</ion-button>
+  <ion-button (click)="abrirCadastro()" class="register">Cadastrar-se</ion-button>
 
-  <p class="ion-text-center">Ajuda?</p>
+
+  <p (click)="abrirAjuda()" class="ion-text-center">Ajuda?</p>
+
 
 </ion-content>
