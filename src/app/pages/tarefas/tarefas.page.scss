@@ -1,17 +1,32 @@
 ion-fab{
 
 
-    /*position: fixed;*/
+    position: fixed;
     
+}
+
+ion-title{
+
+    font-family: Quicksand;
+    font-size: 22px;
+    margin-left: -33%;
 }
 
 h1{
 
     color: #4A5248;
+    font-family: Quicksand;
 }
 
 h3{
 
-    font-weight: bold;
+    font-weight: bolder;
     color: #4A5248;
+    font-family: Quicksand;
+}
+
+h4{
+
+    color: #4A5248;
+    font-family: Quicksand;
 }

@@ -9,6 +9,8 @@ ion-content{
     font-family: quicksand;
 
 
+
+
 .icone{
   
   
@@ -19,7 +21,7 @@ ion-content{
 
 .close {
 
-    margin-top: 15%;
+    margin-top: 8%;
     justify-content: center;
     justify-items: center;
     text-align: center;
@@ -28,7 +30,7 @@ ion-content{
 }
 
 .editar{
-    margin-top: 5%;
+    margin-top: -1%;
     justify-content: center;
     justify-items: center;
     text-align: center;
@@ -36,7 +38,7 @@ ion-content{
 }
 
 .logout{
-    margin-top: 5%;
+    margin-top: 0%;
     justify-content: center;
     justify-items: center;
     text-align: center;
@@ -56,5 +58,22 @@ h1{
     text-align: center;
     color: #4A5248;
 }
+
+}
+
+.logo{
+
+    width: 32%;
+    height: 8%;
+    margin-left: 23%;
+    margin-top: 5px;
+}
+
+.seta{
+
+    width: 7%;
+    height: 6%;
+    margin-left: 4%;
+    margin-bottom: 0px;
 
 }

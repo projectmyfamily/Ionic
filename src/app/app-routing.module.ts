@@ -86,6 +86,38 @@ const routes: Routes = [
   {
     path: 'modalajuda',
     loadChildren: () => import('./pages/modalajuda/modalajuda.module').then( m => m.ModalajudaPageModule)
+  },
+  {
+    path: 'historicotarefas',
+    loadChildren: () => import('./pages/historicotarefas/historicotarefas.module').then( m => m.HistoricotarefasPageModule)
+  },
+  {
+    path: 'creditos',
+    loadChildren: () => import('./pages/creditos/creditos.module').then( m => m.CreditosPageModule)
+  },
+  {
+    path: 'adddesejo',
+    loadChildren: () => import('./pages/adddesejo/adddesejo.module').then( m => m.AdddesejoPageModule)
+  },
+  {
+    path: 'albumfotos',
+    loadChildren: () => import('./pages/albumfotos/albumfotos.module').then( m => m.AlbumfotosPageModule)
+  },
+  {
+    path: 'comemoracoes',
+    loadChildren: () => import('./pages/comemoracoes/comemoracoes.module').then( m => m.ComemoracoesPageModule)
+  },
+  {
+    path: 'conselho',
+    loadChildren: () => import('./pages/conselho/conselho.module').then( m => m.ConselhoPageModule)
+  },
+  {
+    path: 'reuniao',
+    loadChildren: () => import('./pages/reuniao/reuniao.module').then( m => m.ReuniaoPageModule)
+  },
+  {
+    path: 'viajem',
+    loadChildren: () => import('./pages/viajem/viajem.module').then( m => m.ViajemPageModule)
   }
 
 

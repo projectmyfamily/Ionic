@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-atividades',
@@ -7,9 +8,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AtividadesPage implements OnInit {
 
-  constructor() { }
+  constructor(public navCtrl: NavController) { }
 
   ngOnInit() {
+  }
+
+  abrirReuniao() {
+
+    this.navCtrl.navigateForward('/reuniao');
+  }
+
+  abrirViajem() {
+
+    this.navCtrl.navigateForward('/viajem');
+  }
+
+  abrirConselho(){
+
+    this.navCtrl.navigateForward('/conselho');
+  }
+
+  abrirComemoracao(){
+
+    this.navCtrl.navigateForward('/comemoracoes');
+  }
+
+  abrirFotos(){
+
+    this.navCtrl.navigateForward('/albumfotos');
   }
 
 }

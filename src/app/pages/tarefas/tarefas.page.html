@@ -9,21 +9,21 @@
   <ion-item>
     <h1 class="ion-text-center">Tarefas da Familia</h1>
   </ion-item>
-  <!-- ion-item, fazer clique para funcionar e levar até a pagina discricaotarefas-->
-  <ion-item>
+ 
+  <ion-item (click)="status()">
     <ion-avatar slot="start">
       <img src="assets/310.jpg">
     </ion-avatar>
     <ion-label>
       <h3>Tarefa:</h3>
-      <h3>Entrega:</h3>
-      <h3>Para:</h3>
-      <h3>Status:</h3>
+      <h4>Data da Tarefa:</h4>
+      <h4>Pontuação:</h4>
+      <h4>Status:</h4>
     </ion-label>
   </ion-item>
 
   <ion-fab horizontal="end" vertical="bottom" slot="fixed">
-     <a  href="/addtarefas"><img src="assets/add-ion.svg" width="60%" height="60%"></a> 
+    <img (click)="addtarefa()" src="assets/add-ion.svg" width="60%" height="60%">
   </ion-fab>
 
 

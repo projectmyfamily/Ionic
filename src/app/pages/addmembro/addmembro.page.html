@@ -1,34 +1,37 @@
 <ion-header>
   <ion-toolbar>
-
-    <ion-back-button defaultHref="tabs/membros" slot="start"></ion-back-button>
-    <ion-title>Adicionar Membro</ion-title>
+    <img class="logo" src="assets/logo/myfamily.svg">
+    <img class="seta" (click)="close()" src="assets/setaverde.svg">
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
 
-  <ion-item>
-    <div class="titulo">
-      <ion-label class="ion-text-center">Nome da Família</ion-label>
-    </div>
-  </ion-item>
-  <div class="logo">
-    <img src="assets/logo/logooficial.svg" width="40%">
-  </div>
+  <h1 class="ion-text-center">Adicionar Perfil</h1>
 
-  <form class="largura">
-      <ion-item>
-        <ion-label position="floating">E-mail</ion-label>
-        <ion-input></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-label position="floating">Parentesco</ion-label>
-        <ion-input type="password"></ion-input>
-      </ion-item>
-      <div class="entrar">
-      <ion-button type="submit">Entrar</ion-button>
-      </div>
-    </form>
+
+    <img class="addfoto" src="assets/addfoto.svg">
+  
+
+  <form>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Idade</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Parentesco</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">PIN</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </form>
+
+  <ion-button>Adicionar</ion-button>
 
 </ion-content>

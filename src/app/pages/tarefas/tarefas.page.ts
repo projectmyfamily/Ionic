@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 
 @Component({
@@ -8,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarefasPage implements OnInit {
 
-  constructor() { }
+  constructor(public navCtrl: NavController) { }
 
   ngOnInit() {
+  }
+
+  status() {
+
+    this.navCtrl.navigateForward('/discricaotarefas');
+
+  }
+
+  addtarefa() {
+
+    this.navCtrl.navigateForward('/addtarefas');
   }
 
 

@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 
 
-import { IonicModule, IonicRouteStrategy, ModalController } from '@ionic/angular';
+import { IonicModule, IonicRouteStrategy, ModalController, AlertController } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 

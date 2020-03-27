@@ -1,9 +1,18 @@
 .largura {
 
   margin-top: 6%;
-  margin-left: 10%;
-  width: 75%;
+  margin-left: 0%;
+  width: 100%;
+  font-family: Quicksand;
+  color:#4A5248;
 
+}
+
+h1{
+
+  font-family: Quicksand;
+  color:#4A5248;
+  font-size: 23px;
 }
 
 ion-button {
@@ -16,5 +25,18 @@ ion-button {
 
 .posicao{
 
-    margin-top: 15%;
+    margin-top: 10%;
+}
+.seta{
+
+  width: 7%;
+  height: 7%;
+  margin-left: 2%;
+  margin-bottom: 0px;
+}
+
+ion-title{
+
+    font-family: quicksand;
+    font-size: 22px;
 }

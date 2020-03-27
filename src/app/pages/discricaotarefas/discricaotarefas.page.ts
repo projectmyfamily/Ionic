@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-discricaotarefas',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DiscricaotarefasPage implements OnInit {
 
-  constructor() { }
+  constructor(public voltarCtrl: NavController) { }
 
   ngOnInit() {
+  }
+
+  voltar() {
+
+    this.voltarCtrl.navigateBack('/tabs/tarefas');
+
   }
 
 }

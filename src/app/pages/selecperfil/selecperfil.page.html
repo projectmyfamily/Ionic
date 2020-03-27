@@ -6,11 +6,10 @@
     <h1>Selecionar perfil:</h1>
   </div>
 
-  <div class="add">
-    <ion-avatar (click)="addPerfil()">
-      <img src="assets/add-perfil.svg" width="60%" height="60%">
-    </ion-avatar>
-  </div>
+
+  <img class="add" (click)="addPerfil()" src="assets/add-perfil.svg">
+
+  <!-- <ion-button (click)="presentAlertPin()">Prompt</ion-button> -->
 
   <ion-button (click)="sair()" class="button-clear">Sair</ion-button>
 

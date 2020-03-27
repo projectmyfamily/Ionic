@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ModalController, NavController } from '@ionic/angular';
+import { ModalController, NavController, AlertController } from '@ionic/angular';
 import { ModaladdperfilPage } from '../modaladdperfil/modaladdperfil.page';
 
 @Component({
@@ -9,7 +9,7 @@ import { ModaladdperfilPage } from '../modaladdperfil/modaladdperfil.page';
 })
 export class SelecperfilPage implements OnInit {
 
-  constructor(private modalCtrl: ModalController, public navCtrl: NavController) { }
+  constructor(private modalCtrl: ModalController, public navCtrl: NavController, public alertCtrl: AlertController) { }
 
   ngOnInit() {
   }
@@ -29,5 +29,29 @@ export class SelecperfilPage implements OnInit {
     this.navCtrl.navigateForward('/inicio');
   }
 
+  /* async presentAlertPin() {
+    const alert = await this.alertCtrl.create({
+      header: 'Prompt!',
+      inputs: [
 
-}
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          role: 'cancel',
+          cssClass: 'secondary',
+          handler: () => {
+            console.log('Confirm Cancel');
+          }
+        }, {
+          text: 'Ok',
+          handler: () => {
+            console.log('Confirm Ok');
+          }
+        }
+      ]
+     });
+
+  }*/
+
+ }

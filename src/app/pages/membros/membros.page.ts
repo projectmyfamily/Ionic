@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AddmembroPage } from '../addmembro/addmembro.page';
+
+import { NavController } from '@ionic/angular';
 
 
 @Component({
@@ -8,13 +9,16 @@ import { AddmembroPage } from '../addmembro/addmembro.page';
   styleUrls: ['./membros.page.scss'],
 })
 export class MembrosPage implements OnInit {
-  navCtrl: any;
 
-  constructor() { }
+  constructor(public navCtrl: NavController) { }
 
   ngOnInit() {
   }
 
-  
+  abriraddmembro(){
+
+    this.navCtrl.navigateForward('/addmembro');
+  }
+
 
 }

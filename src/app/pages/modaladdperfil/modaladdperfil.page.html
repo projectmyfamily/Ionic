@@ -1,9 +1,37 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title (click)="close()">modaladdperfil</ion-title>
+  <ion-toolbar color="clear">
+    <img class="logo" src="assets/logo/myfamily.svg">
+    <img class="seta" (click)="close()" src="assets/setaverde.svg">
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <h1 class="ion-text-center">Adicionar Perfil</h1>
+
+
+    <img class="addfoto" src="assets/addfoto.svg">
+  
+
+  <form>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Idade</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Parentesco</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">PIN</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </form>
+
+  <ion-button>Adicionar</ion-button>
 
 </ion-content>
